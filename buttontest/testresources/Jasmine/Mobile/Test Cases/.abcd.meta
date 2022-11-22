@@ -1,0 +1,91 @@
+{
+    "testCaseName": "abcd",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Form1.Button0ba9623b33b8242",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "0add0251-2b9a-9728-b8a4-a9cab3a6186f",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "Form1.Button0ba9623b33b8242"
+                    },
+                    "appName": "buttontest"
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "Form1.Button0ba9623b33b8242",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageData": {
+                    "widgetType": "button",
+                    "appName": "buttontest",
+                    "actionType": "click",
+                    "widgetPath": "Form1.Button0ba9623b33b8242"
+                },
+                "UUID": "475C7776-69D4-486B-A77C-E61E426A8E62",
+                "messageType": "Record"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/alert.svg",
+            "activeActionIconClassName": "assets/widget_icons/activealert.svg",
+            "entity": "alert",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageData": {
+                    "metadata": {
+                        "id": 0
+                    },
+                    "widgetType": "alert",
+                    "appName": "buttontest",
+                    "actionType": "click",
+                    "widgetPath": "alert"
+                },
+                "UUID": "16904811-6591-4CAE-857A-5712861A79A4",
+                "messageType": "Record"
+            },
+            "codeNotReady": false,
+            "dispMeta": "",
+            "metaEditable": false
+        }
+    ],
+    "_currentForm": "buttontest/Form1",
+    "timeout": 0,
+    "dataFileName": "abcd_data",
+    "dataFileVarName": "testcaseData_1669099303176",
+    "datasetName": "dataset",
+    "appName": "buttontest",
+    "usedBy": {}
+}
