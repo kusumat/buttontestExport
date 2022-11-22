@@ -54,6 +54,7 @@
     "allJoyn": "false",
     "allowselfsignedcertificate": "false",
     "andmaxsdkkey": "None",
+    "andtargetsdkkey": "11.0 (30)",
     "androidInstallLocation": "Auto",
     "androidInstallLocnPref": "false",
     "android_allowselfsignedcertificates": "None",
